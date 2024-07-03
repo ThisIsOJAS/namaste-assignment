@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.leftcorner {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.headerphoto {
+  border-radius: 50%;
+  border: 5px solid;
+  border-color: black;
+  vertical-align: middle;
+}
+
+.searchbar {
+  border-radius: 20px;
+  padding: 4px;
+  border: none;
+  outline: none;
+  background-color: rgb(255, 255, 255);
+}
+
+.searchcontainer {
+  border-radius: 20px;
+  display: flex;
+  gap: 5px;
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+  padding-left: 5px;
+  border: 3px solid black;
+}
+
+.searchicon {
+  margin-left: 5px;
+}
+
+.searchcontainer::placeholder {
+  color: rgb(255, 255, 255);
+}
+
+.HeaderProfile {
+  background-color: rgb(64, 12, 196);
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  max-height: 2rem;
+}
+
+.profilephoto {
+  border-radius: 50%;
+  border: 5px solid;
+  border-color: black;
+}
